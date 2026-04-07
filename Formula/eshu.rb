@@ -3,7 +3,7 @@ class Eshu < Formula
   homepage "https://github.com/Moniepoint/eshu"
   license "Proprietary"
 
-  version "0.5.3-alpha"
+  version "0.5.4-alpha"
 
   on_macos do
     on_arm do
