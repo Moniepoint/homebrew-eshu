@@ -3,29 +3,29 @@ class Eshu < Formula
   homepage "https://github.com/Moniepoint/eshu"
   license "Proprietary"
 
-  version "0.7.0-alpha"
+  version "0.7.1-alpha"
 
   on_macos do
     on_arm do
       url "https://proxy-function-241114592952.europe-west1.run.app/download/v#{version}/eshu-#{version}.darwin-arm64.tar.gz"
-      sha256 "c9110a5640dddc2982f2c37abb09e9a579025700fd3643bf9322ed957ce282fb"
+      sha256 "c78246c58463f268f7176c4152ef582d8e6c02deb9a2100d817ab5a5fb7e28cd "
     end
 
     on_intel do
       url "https://proxy-function-241114592952.europe-west1.run.app/download/v#{version}/eshu-#{version}.darwin-amd64.tar.gz"
-      sha256 "6b9d7a1444c84026a48eafe903bebb30f58626f6a7fdedabf702047624d9ad10"
+      sha256 "1d4c9d7570aafef0b9d3ea903ed90f5f6127dafdbe006bbfd3f637d650dc7182"
     end
   end
 
   on_linux do
     on_arm do
       url "https://proxy-function-241114592952.europe-west1.run.app/download/v#{version}/eshu-#{version}.linux-arm64.tar.gz"
-      sha256 "c7cae7ab0d418b70ae3a4525dc29b8eb8db85aef67ee7777af177690d9b4559d"
+      sha256 "404068e60e78c81039b4202d522d14d6595d9281a4cb9927941a055c6e830b74"
     end
 
     on_intel do
       url "https://proxy-function-241114592952.europe-west1.run.app/download/v#{version}/eshu-#{version}.linux-amd64.tar.gz"
-      sha256 "f1caa5776049895ff5bfebbe5a7e5c32a244fda34e7e81672058f57a899f8e45"
+      sha256 "0cf1d238dd080690b9e9875d0307479339d4d081ae84ddc08291f0e8c10d3d87"
     end
   end
 
