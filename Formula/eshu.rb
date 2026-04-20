@@ -8,7 +8,7 @@ class Eshu < Formula
   on_macos do
     on_arm do
       url "https://proxy-function-241114592952.europe-west1.run.app/download/v#{version}/eshu-#{version}.darwin-arm64.tar.gz"
-      sha256 "c78246c58463f268f7176c4152ef582d8e6c02deb9a2100d817ab5a5fb7e28cd "
+      sha256 "c78246c58463f268f7176c4152ef582d8e6c02deb9a2100d817ab5a5fb7e28cd"
     end
 
     on_intel do
